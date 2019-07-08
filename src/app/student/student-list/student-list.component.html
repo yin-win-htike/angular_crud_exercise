@@ -1,8 +1,9 @@
 <div class="row">
   <div class="col-md-12">
     <div class="mat-elevation-z4">
+    <h2>Student List</h2>
       <button color="primary" type="button" mat-raised-button class="add-btn mr-2" (click)="createForm()">
-              Add New
+        Add New
       </button>
       <div class="table-responsive scroll-x" #h_scroll>
           <table mat-table [dataSource]="studentInfoList" class="mat-elevation-z8">

@@ -1,4 +1,176 @@
 /* You can add global styles to this file, and also import other style files */
-
+.box, .sample-layout > div {
+    background-color: #007ad9;
+    text-align: left;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-radius: 4px;
+    color: #FFF;
+}
+* {
+    font-family: 'Zawgyi-One';
+}
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+/* body { margin: 0; background-color: #f39800 !important; } */
+
+.full-width {
+    width: 100%;
+  }
+
+  mat-form-field {
+    width: 100%
+}
+
+table {
+    width: 100%;
+}
+
+table td.mat-cell, table th.mat-header-cell {
+    padding: 5px 25px;
+    white-space: nowrap;
+    text-align: justify;
+}
+
+.spacer-lbl {
+    padding: 20px;
+  }
+  
+
+  .search-btn{
+      color: #fff;
+      background: #f39800;
+      outline: none;
+}
+
+  .search-btn:hover {
+    color: #fff;
+    background: #fb9d01;
+}
+
+.search-btn:focus{
+    outline: none;
+}
+
+.search-btn:active{
+    background: #f39800;
+    outline: none;
+}
+
+.reset-btn{
+    color: #fff;
+    background: #B8A99A;
+}
+
+.reset-btn:hover {
+  color: #fff;
+  background: #a09487;
+}
+
+.reset-btn:focus{
+    outline: none;
+}
+
+.reset-btn:visited{
+    color: #fff;
+    background: #B8A99A;
+}
+
+
+.add-btn {
+    color: #fff;
+    background:#977148;
+}
+
+  .add-btn:hover {
+    color: #fff;
+    background: #AD8A67;
+}
+
+.add-btn:focus{
+    outline: none;
+}
+
+.add-btn:active {
+    color: #fff;
+    background:#977148;
+}
+
+body .ui-button:enabled:focus {
+    box-shadow:  0 0 0 0.2em #f39800;
+}
+
+.form-control:focus {
+    border-color: none!important;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(243,152,0,.25)!important;
+}
+
+.mat-dialog-container {
+    padding: 0px!important;
+}
+
+.spacer-lbl-10 {
+    padding: 10px;
+}
+
+.mat-drawer-container{
+    background-color: none !important;
+}
+
+.mat-form-field-ripple {
+    background-color:#f39800!important; 
+}
+
+.mat-focused .mat-form-field-label { 
+    color: #f39800!important;
+}
+
+.mat-table thead {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-top: 4px solid #f39800;
+}
+
+.mat-header-cell{
+    color: #f39800;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.mat-cell {
+    color: #424242;
+    font-size: 13px;
+}
+
+.pd_right_5 {
+    padding-right: 5px;
+  }
+
+.dialog_header {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.ellipsis-inner span {
+    width: 200px;
+}
+
+.short_text {
+    white-space: nowrap;
+}
+
+.complete{
+    display:none;
+}
+
+.more{
+    color: #f39800;
+    font-size:13px;
+    padding:3px;
+    cursor:pointer;
+}
